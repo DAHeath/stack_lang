@@ -1,0 +1,2 @@
+[swap dup [] = [ ] [over swap over ! rot swap tail swap map ::] if] 'map def
+[1 2 3] [2 *] map
